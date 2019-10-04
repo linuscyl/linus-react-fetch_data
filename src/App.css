@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -19,4 +18,56 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.slide-container {
+  width: 500px;
+  margin: auto;
+  justify-content: "show-around";
+  align-content: flex
+ }
+
+h3 {
+  text-align: center; }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #305eb4;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+  align-self: center;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+  align-content: center;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
 }
